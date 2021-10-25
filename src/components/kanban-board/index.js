@@ -21,6 +21,10 @@ export default class KanbanBoard extends Component {
   //  console.log(this.state.input);
  }
 
+
+  //to understand how I used setState with arrays and objects please refer to this stack overflow link
+  //https://stackoverflow.com/questions/43638938/updating-an-object-with-setstate-in-react
+
  handleAdd = (e) => {
    if(this.state.input){
 
